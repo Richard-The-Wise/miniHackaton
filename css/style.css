@@ -4,16 +4,17 @@
 }
 
 .homepage-bg {
-    background: linear-gradient(rgba(125, 206, 19, 0.4),rgba(125, 206, 19, 0.4)), url(../img/background.jpeg); 
+    background: linear-gradient(rgba(125, 206, 19, 0.4), rgba(125, 206, 19, 0.4)), url(../img/background.jpeg);
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
 }
 
-html, body {
+html,
+body {
     margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
 
 body {
@@ -21,10 +22,10 @@ body {
     font-size: 1.6rem;
     line-height: 2;
     text-align: center;
-
 }
 
-p, h4 {
+p,
+h4 {
     margin: 0;
 }
 
@@ -54,13 +55,39 @@ footer {
     margin: 1rem;
 }
 
+.integrante img {
+    width: 100%;
+}
+
 .seccion {
     margin: 2rem;
 }
 
-.integrante, 
-.seccion p{
+.integrante,
+.seccion {
     background-image: linear-gradient(to bottom right, rgba(241, 238, 233, 1), rgba(241, 238, 233, 0.5));
     border-radius: 1rem;
     padding: 1rem;
+}
+
+.functions-btns {
+    display: auto / repeat (2, 50%);
+}
+
+.function-btn {
+    background-color: #383838;
+    /* Green */
+    border-radius: 1rem;
+    color: greenyellow;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.function-btn:hover {
+    background-color: greenyellow;
+    color: #383838;
+    transition: 1s;
 }
