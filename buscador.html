@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="/css/style.css">
   <!-- Bootstrap CSS v5.2.0-beta1 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -17,21 +18,46 @@
 
 
   <section class="container dis">
-    <h1 class="h-100 text-center text-light"> morty! were in a search bar morty! brub Go use it!</h1>
+    <div class="row">
+
+      <h1 class="text-center text-white">Rick and Morty Api</h1>
+    </div>
     <div class="mb-3">
       <label for="" class="form-label"></label>
-      <input type="text" class="form-control" name="" id="buscador" aria-describedby="helpId" placeholder="">
-      <small id="helpId" class="form-text text-muted">Help text</small>
-    </div>
-    <a name="" id="clearBtn" class="btn btn-primary text-dark" href="#" role="button"
-      style="background-color:lime; font-size: 1.2rem; font-weight: 500;">Clear</a>
+      <div class="d-flex gap-3">
+        <a name="" id="clearBtn" class="btn btn-primary text-dark my-auto" href="#" role="button"
+          style=" font-size: 1.2rem; font-weight: 500;">Clear</a>
+        <div class="w-100">
+          <input type="text" class="form-control" name="" id="buscador" aria-describedby="helpId"
+            placeholder="Search something morty! Come on!">
+          <small id="helpId" class="form-text text-light text-center">Search for a character, episode or
+            location</small>
+        </div>
+        <a name="" id="searchBtn" class="btn btn-primary text-dark my-auto" href="#" role="button"
+          style="background-color:lime; font-size: 1.2rem; font-weight: 500;">Search</a>
+      </div>
+
+
+      <!-- show user search history -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-white">Search History</h3>
+          <ul class="list-group text-white text-center list-unstyled" id="historyList" style="color:rbg(#fff .2);">
+            <li>test search</li>
+
+          </ul>
+        </div>
+
   </section>
 
-  <section class="container m-5">
-    <div class="card" style="width: 8rem; height:auto">
+  <section class="gridColms | container " id="cardSection">
+    <div class="card " style="width: 8rem; height:auto">
       <img class="card-img-top" src="holder.js/100x180/" alt="Title">
       <div class="card-body">
         <h4 class="card-title">Title</h4>
+        <p class="card-text">Text</p>
+        <p class="card-text">orign</p>
+        <p class="card-text">status</p>
         <p class="card-text">Text</p>
       </div>
     </div>
