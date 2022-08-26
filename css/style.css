@@ -26,13 +26,13 @@ body {
 
 p,
 h1,
-h4 {
+h4, 
+header {
     margin: 0;
 }
 
 header {
     background-color: #383838;
-    margin: 0;
     color: greenyellow;
 }
 
