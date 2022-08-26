@@ -92,3 +92,11 @@ footer {
     color: #383838;
     transition: 1s;
 }
+
+@media (max-width: 744px) {
+    .integrantes, 
+    .functions-btns {
+        display: flex;
+        flex-direction: column;
+    }
+}
