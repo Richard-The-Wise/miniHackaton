@@ -5,7 +5,7 @@ const API = {
 
 // DOM elemenrs
 const input = document.querySelector('#buscador');
-const container =  document.querySelector('.cards__container');
+const container =  document.querySelector('#cardSection');
 
 
 input.addEventListener('input', (e) => {
