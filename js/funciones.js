@@ -42,5 +42,8 @@ async function renderFilterCharacters(text)  {
   container.innerHTML = htmlCharacters.join('');
 }
 
-
+function clearDOM() {
+    const container = document.querySelector('.cards__container')
+    container.innerHTML = '';
+}
 
