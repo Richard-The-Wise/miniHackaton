@@ -14,7 +14,8 @@
 
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark text-capitalize
+">
 
 
   <section class="container dis">
@@ -31,7 +32,21 @@
           <input type="text" class="form-control" name="" id="buscador" aria-describedby="helpId"
             placeholder="Search something morty! Come on!">
           <small id="helpId" class="form-text text-light text-center">Search for a character, episode or
-            location</small>
+            location </small>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Spieces">
+            <label class="form-check-label text-light" for="">
+              Spieces
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="genero">
+            <label class="form-check-label text-light" for="">
+              genero
+            </label>
+          </div>
+
         </div>
         <a name="" id="searchBtn" class="btn btn-primary text-dark my-auto" href="#" role="button"
           style="background-color:lime; font-size: 1.2rem; font-weight: 500;">Search</a>
@@ -42,7 +57,7 @@
       <div class="row">
         <div class="col-12">
           <h3 class="text-center text-white">Search History</h3>
-          <ul class="list-group text-white text-center list-unstyled" id="historyList" style="color:rbg(#fff .2);">
+          <ul class="list-group text-white text-center list-unstyled" id="historyList" style="color:rbg(#fff);">
             <li>test search</li>
 
           </ul>
@@ -56,7 +71,8 @@
       <div class="card-body">
         <h4 class="card-title">Title</h4>
         <p class="card-text">Text</p>
-        <p class="card-text">orign</p>
+        <p class="card-text">Gender</p>
+        <p class="card-text">Orign</p>
         <p class="card-text">status</p>
         <p class="card-text">Text</p>
       </div>
