@@ -1,0 +1,66 @@
+:root {
+    --generalFont: 'Work Sans', sans-serif;
+    --mainFont: 'Raleway', sans-serif;
+}
+
+.homepage-bg {
+    background: linear-gradient(rgba(125, 206, 19, 0.4),rgba(125, 206, 19, 0.4)), url(../img/background.jpeg); 
+    background-size: cover;
+    background-position: center center; 
+}
+
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+body {
+    font-family: var(--mainFont);
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: center;
+
+}
+
+p, h4 {
+    margin: 0;
+}
+
+header {
+    background-color: #383838;
+    margin: 0;
+    color: greenyellow;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: #383838;
+    padding: 1rem;
+    color: greenyellow;
+}
+
+.integrantes {
+    display: grid;
+    grid-template: auto / repeat(3, 33.3%);
+}
+
+.integrante {
+    margin: 1rem;
+}
+
+.seccion {
+    margin: 2rem;
+}
+
+.integrante, 
+.seccion p{
+    background-image: linear-gradient(to bottom right, rgba(241, 238, 233, 1), rgba(241, 238, 233, 0.5));
+    border-radius: 1rem;
+    padding: 1rem;
+}
