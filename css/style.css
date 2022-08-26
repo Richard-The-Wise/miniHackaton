@@ -25,6 +25,7 @@ body {
 }
 
 p,
+h1,
 h4 {
     margin: 0;
 }
@@ -90,4 +91,12 @@ footer {
     background-color: greenyellow;
     color: #383838;
     transition: 1s;
+}
+
+@media (max-width: 744px) {
+    .integrantes, 
+    .functions-btns {
+        display: flex;
+        flex-direction: column;
+    }
 }
